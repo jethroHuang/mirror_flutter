@@ -27,7 +27,9 @@ dependencies:
   hive_flutter: ^0.3.0+2
   path_provider: ^1.6.5
   wakelock: ^0.1.4
+  webview_flutter: ^0.3.19+9
   flutter_webview_plugin: ^0.3.11
+  device_info: ^0.4.2+1
 
 
 dev_dependencies:
