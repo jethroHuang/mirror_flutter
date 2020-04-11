@@ -78,8 +78,10 @@ class HomePage extends StatelessWidget {
     if (Platform.isAndroid && AppGlobal.androidAPiLevel < 21) {
       return WebviewScaffold(
         url: url,
-        withZoom: true,
+        withZoom: false,
         withJavascript: true,
+        clearCache: true,
+        appCacheEnabled: false,
       );
     } else {
       return WebView(
